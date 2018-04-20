@@ -2,13 +2,13 @@
 
 Simple redirect service for mapping short commands to URLs.
 
-Supports the possibility to write `go/<command>` in your browser to open URLs connected to your pre-defined commands.
+Runs a Node.js server with express supporting the possibility to write `go/<command>` in your browser to open URLs connected to your pre-defined commands.
 
 ## Commands
 
 Commands are specified as a JSON map in the following format:
 
-```json
+```
 {
   "<command-1>": "<url-1>",
   "<command-2>": "<url-2>",
